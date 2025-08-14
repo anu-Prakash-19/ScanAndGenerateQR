@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRcode Generator</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body class="bg-gray-300">
+  <div class="container p-5 mx-auto flex flex-col items-center">
+
+     <div class="text-2xl font-bold mb-5">QRcode Generator</div>
+
+    <form class="bg-white lg:w-[60%] md:w-[446px] w-sm flex flex-col p-5 rounded-2xl gap-5" method="post">
+      <label for="data" class="">Enter Your Data</label>
+      <input name="data" type="text" class="border border-black-200 p-2 rounded outline-none
+       focus:border-pink-500 focus:border-2">
+       <button class="bg-blue-900 text-white py-1 w-[50%] rounded-2xl">Generate QRCODE</button>
+    </form>
+  </div>
+</body>
+</html>
