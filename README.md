@@ -16,7 +16,8 @@ Built using **HTML, CSS, and JavaScript**, this project works directly in the br
 ---
 
 ## 📷 Screenshot
-![ScanAndGenerateQR Screenshot](f83d712c-e570-46f1-9903-02cd9cb5afa0.png)
+![ScanAndGenerateQR Screenshot]<img width="1910" height="911" alt="image" src="https://github.com/user-attachments/assets/d2ba7895-5084-4a53-8b7f-696348a126d8" />
+
 
 ---
 
